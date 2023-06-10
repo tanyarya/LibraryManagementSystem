@@ -1,0 +1,126 @@
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 800px;
+    margin-left: 550px
+  }
+  
+  table tr {
+    background-color: #4d8d45;
+    border: 1px solid #000000;
+    padding: .35em; 
+  }
+  
+  table th,
+  table td {
+    /* padding: .625em; */
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #da420b;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
+
+.navbar
+{
+background-color: rgba(7, 7, 7, 0.942);
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+.splitl {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 4.1%;
+    padding-top: 20px;
+  }
+ .splitr {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 4.1%;
+    padding-top: 1000px;
+    margin-left: 1000px;
+  }
+
+  .atag{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+  }
+  .atag:hover{
+    color: #4d8d45;
+  }
+  
+  .left {
+    left: 0;
+    background-color: rgba(21, 23, 23, 0.942);
+  }
+  .right {
+    right: 0;
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+

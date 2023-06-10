@@ -1,0 +1,47 @@
+body {
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+form {
+    background: rgba(37, 35, 35, 0.901);
+	padding-top: 25px;
+    padding-bottom: 25px;
+	border-radius: 10px;
+	width: 400px;
+    margin-top: 250px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+form.register{																				/* Register form height */
+	height: 420px;
+}
+
+form .text-field {																			/* Input fields; Username, Password etc. */
+	border: 1px solid #a6a6a6;
+	width: 230px;
+	height: 40px;
+	border-radius: 3px;
+	margin-top: 10px;
+	padding-left: 10px;
+	color: #6c6c6c;
+	background: #fcfcfc;
+	outline: none;
+}
+
+form .button {																				/* Submit button */
+    display: block;
+   margin-top:20px ;
+   margin-left: 150px;
+    border: none;
+    outline: none;
+    background: #4d8d45;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
