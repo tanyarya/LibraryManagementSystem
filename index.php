@@ -47,7 +47,7 @@ else
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#" style="padding-left: 2%; color: aliceblue;">E-RESOURCE MANAGEMENT SYSTEM</a>
+          <a class="navbar-brand" href="#" style="padding-left: 2%; color: aliceblue;">LIBRARY MANAGEMENT SYSTEM</a>
         </div>
       </nav>
     <div class="login-wrapper">
